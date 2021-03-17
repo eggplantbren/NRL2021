@@ -1,0 +1,12 @@
+# NRL data for 2021
+---
+-
+    round: 1
+    home_team: "storm"
+    away_team: "rabbitohs"
+    result: [26, 18]
+-
+    round: 2
+    home_team: "knights"
+    away_team: "bulldogs"
+    result: [32, 16]
