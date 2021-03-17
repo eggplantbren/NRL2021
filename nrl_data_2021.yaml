@@ -2,11 +2,36 @@
 ---
 -
     round: 1
-    home_team: "storm"
-    away_team: "rabbitohs"
-    result: [26, 18]
--
-    round: 2
-    home_team: "knights"
-    away_team: "bulldogs"
-    result: [32, 16]
+    matches:
+        -
+            home_team: "storm"
+            away_team: "rabbitohs"
+            result: [26, 18]
+        -
+            home_team: "knights"
+            away_team: "bulldogs"
+            result: [32, 16]
+        -
+            home_team: "broncos"
+            away_team: "eels"
+            result: [16, 24]
+        -
+            home_team: "warriors"
+            away_team: "titans"
+            result: [19, 6]
+        -
+            home_team: "roosters"
+            away_team: "sea eagles"
+            result: [46, 4]
+        -
+            home_team: "panthers"
+            away_team: "cowboys"
+            result: [16, 24]
+        -
+            home_team: "raiders"
+            away_team: "tigers"
+            result: [30, 12]
+        -
+            home_team: "dragons"
+            away_team: "sharks"
+            result: [18, 32]
