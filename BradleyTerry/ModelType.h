@@ -3,7 +3,7 @@
 
 #include "MyModel.hpp"
 
-namespace DNest5_Template
+namespace NRL2021
 {
 
 using ModelType = MyModel;

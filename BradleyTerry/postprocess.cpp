@@ -3,11 +3,12 @@
 #include "ModelType.h"
 
 using namespace DNest5;
+using namespace NRL2021;
 
 int main(int argc, char** argv)
 {
     CommandLineOptions options(argc, argv);
-    postprocess<DNest5_Template::ModelType>(options);
+    postprocess<ModelType>(options);
     return 0;
 }
 

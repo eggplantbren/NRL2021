@@ -22,7 +22,7 @@ class Data
     public:
         static inline void load(const char* filename);
         static inline void print(std::ostream& out);
-
+        static inline const std::vector<Match>& get_matches();
 };
 
 /* IMPLEMENTATIONS FOLLOW */
@@ -65,6 +65,11 @@ inline void Data::print(std::ostream& out)
 {
     for(const auto& match: matches)
         out << match << std::endl;
+}
+
+inline const std::vector<Match>& Data::get_matches()
+{
+    return matches;
 }
 
 } // namespace

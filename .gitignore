@@ -1,2 +1,6 @@
+dnest5.db*
 main
 postprocess
+posterior.csv
+posterior.db
+results.yaml
