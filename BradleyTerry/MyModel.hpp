@@ -4,6 +4,7 @@
 #include <cmath>
 #include <cstdlib>
 #include "Data.hpp"
+#include <iomanip>
 #include <ParameterNames.h>
 #include <Tools/Misc.hpp>
 #include <vector>
@@ -53,7 +54,7 @@ inline MyModel::MyModel(RNG& rng)
         for(int i=0; i<Data::get_num_teams(); ++i)
         {
             std::stringstream ss;
-            ss << "abilities[" << i << "]";
+            ss << "abilities[" << Data::get_team_name(i) << "]";
             parameter_names.add(ss.str());
         }
     }
@@ -141,6 +142,7 @@ inline std::vector<char> MyModel::to_blob() const
 inline std::string MyModel::to_string() const
 {
     std::stringstream ss;
+    ss << std::setprecision(10);
     ss << sig_log_abilities << ',' << home_advantage << ',';
     for(int i=0; i<int(abilities.size()); ++i)
     {
