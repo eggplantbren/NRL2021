@@ -23,6 +23,7 @@ class Data
         static inline void load(const char* filename);
         static inline void print(std::ostream& out);
         static inline const std::vector<Match>& get_matches();
+        static inline int get_num_teams();
 };
 
 /* IMPLEMENTATIONS FOLLOW */
@@ -70,6 +71,11 @@ inline void Data::print(std::ostream& out)
 inline const std::vector<Match>& Data::get_matches()
 {
     return matches;
+}
+
+inline int Data::get_num_teams()
+{
+    return teams.size();
 }
 
 } // namespace
