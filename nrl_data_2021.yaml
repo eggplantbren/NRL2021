@@ -26,7 +26,7 @@
         -
             home_team: "panthers"
             away_team: "cowboys"
-            result: [16, 24]
+            result: [24, 0]
         -
             home_team: "raiders"
             away_team: "tigers"
