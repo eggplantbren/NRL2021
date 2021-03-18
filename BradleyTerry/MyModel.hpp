@@ -17,6 +17,7 @@ class MyModel
 {
     private:
         double sig_log_abilities;
+        double home_advantage;
         std::vector<double> ns;
         std::vector<double> abilities;
         inline void compute_abilities();
@@ -40,6 +41,7 @@ inline MyModel::MyModel(RNG& rng)
 ,abilities(Data::get_num_teams())
 {
     sig_log_abilities = 2.0*rng.rand();
+    home_advantage = 1.0 - log(rng.rand());
     for(double& n: ns)
         n = rng.randn();
     compute_abilities();
@@ -47,6 +49,7 @@ inline MyModel::MyModel(RNG& rng)
     if(parameter_names.size() == 0)
     {
         parameter_names.add("sig_log_abilities");
+        parameter_names.add("home_advantage");
         for(int i=0; i<Data::get_num_teams(); ++i)
         {
             std::stringstream ss;
@@ -74,10 +77,21 @@ inline double MyModel::perturb(RNG& rng)
 {
     double logh = 0.0;
 
-    if(rng.rand() <= 0.25)
+    if(rng.rand() <= 0.5)
     {
-        sig_log_abilities += 2.0*rng.randh();
-        Tools::wrap(sig_log_abilities, 0.0, 2.0);
+        int which = rng.rand_int(2);
+        if(which == 0)
+        {
+            sig_log_abilities += 2.0*rng.randh();
+            Tools::wrap(sig_log_abilities, 0.0, 2.0);
+        }
+        else
+        {
+            home_advantage = 1.0 - exp(-(home_advantage - 1.0));
+            home_advantage += rng.randh();
+            Tools::wrap(home_advantage);
+            home_advantage = 1.0 - log(1.0 - home_advantage);
+        }
     }
     else
     {
@@ -99,8 +113,8 @@ inline double MyModel::log_likelihood() const
     for(const auto& match: matches)
     {
         // probability of home team win
-        double prob_htw = abilities[match.home_team]
-                                /(abilities[match.home_team]
+        double prob_htw = abilities[match.home_team]*home_advantage
+                                /(abilities[match.home_team]*home_advantage
                                     + abilities[match.away_team]);
         if(match.home_team_won)
             logl += log(prob_htw);
@@ -113,9 +127,10 @@ inline double MyModel::log_likelihood() const
 
 inline std::vector<char> MyModel::to_blob() const
 {
-    std::vector<char> result((1 + ns.size())*sizeof(double));
+    std::vector<char> result((2 + ns.size())*sizeof(double));
     std::stringstream ss;
     ss.write((const char*)(&sig_log_abilities), sizeof(double));
+    ss.write((const char*)(&home_advantage), sizeof(double));
     for(const double& n: ns)
         ss.write((const char*)(&n), sizeof(double));
     std::string s = ss.str();
@@ -126,7 +141,7 @@ inline std::vector<char> MyModel::to_blob() const
 inline std::string MyModel::to_string() const
 {
     std::stringstream ss;
-    ss << sig_log_abilities << ',';
+    ss << sig_log_abilities << ',' << home_advantage << ',';
     for(int i=0; i<int(abilities.size()); ++i)
     {
         ss << abilities[i];
@@ -140,7 +155,8 @@ inline std::string MyModel::to_string() const
 inline void MyModel::from_blob(const std::vector<char>& bytes)
 {
     std::memcpy(&sig_log_abilities, &bytes[0], sizeof(double));
-    std::memcpy(&ns[0], &bytes[0]+sizeof(double), ns.size()*sizeof(double));
+    std::memcpy(&home_advantage, &bytes[0] + sizeof(double), sizeof(double));
+    std::memcpy(&ns[0], &bytes[0]+2*sizeof(double), ns.size()*sizeof(double));
     compute_abilities();
 }
 
