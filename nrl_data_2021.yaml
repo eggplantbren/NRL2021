@@ -35,3 +35,10 @@
             home_team: "dragons"
             away_team: "sharks"
             result: [18, 32]
+-
+    round: 2
+    matches:
+        -
+            home_team: "eels"
+            away_team: "storm"
+            result: [16, 12]
