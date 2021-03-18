@@ -4,7 +4,7 @@ num_particles: 5
 num_threads: 5
 new_level_interval: 10000
 save_interval: 1000
-thin: 0.1
+thin: 1.0
 max_num_levels: "auto"
 lambda: 10.0
 beta: 100.0
