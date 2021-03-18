@@ -16,7 +16,7 @@ using DNest5::ParameterNames, Tools::RNG;
 class MyModel
 {
     private:
-        double sig;
+        double sig_log_abilities;
         std::vector<double> ns;
         std::vector<double> abilities;
         inline void compute_abilities();
@@ -39,14 +39,14 @@ inline MyModel::MyModel(RNG& rng)
 :ns(Data::get_num_teams())
 ,abilities(Data::get_num_teams())
 {
-    sig = 2.0*rng.rand();
+    sig_log_abilities = 2.0*rng.rand();
     for(double& n: ns)
         n = rng.randn();
     compute_abilities();
 
     if(parameter_names.size() == 0)
     {
-        parameter_names.add("sig");
+        parameter_names.add("sig_log_abilities");
         for(int i=0; i<Data::get_num_teams(); ++i)
         {
             std::stringstream ss;
@@ -58,8 +58,16 @@ inline MyModel::MyModel(RNG& rng)
 
 inline void MyModel::compute_abilities()
 {
+    double tot = 0.0;
     for(int i=0; i<Data::get_num_teams(); ++i)
-        abilities[i] = exp(sig*ns[i]);
+    {
+        abilities[i] = sig_log_abilities*ns[i];
+        tot += abilities[i];
+    }
+    double mean = tot/abilities.size();
+
+    for(double& a: abilities)
+        a = exp(a - mean);
 }
 
 inline double MyModel::perturb(RNG& rng)
@@ -68,8 +76,8 @@ inline double MyModel::perturb(RNG& rng)
 
     if(rng.rand() <= 0.25)
     {
-        sig += 2.0*rng.randh();
-        Tools::wrap(sig, 0.0, 2.0);
+        sig_log_abilities += 2.0*rng.randh();
+        Tools::wrap(sig_log_abilities, 0.0, 2.0);
     }
     else
     {
@@ -107,7 +115,7 @@ inline std::vector<char> MyModel::to_blob() const
 {
     std::vector<char> result((1 + ns.size())*sizeof(double));
     std::stringstream ss;
-    ss.write((const char*)(&sig), sizeof(double));
+    ss.write((const char*)(&sig_log_abilities), sizeof(double));
     for(const double& n: ns)
         ss.write((const char*)(&n), sizeof(double));
     std::string s = ss.str();
@@ -118,7 +126,7 @@ inline std::vector<char> MyModel::to_blob() const
 inline std::string MyModel::to_string() const
 {
     std::stringstream ss;
-    ss << sig << ',';
+    ss << sig_log_abilities << ',';
     for(int i=0; i<int(abilities.size()); ++i)
     {
         ss << abilities[i];
@@ -131,7 +139,7 @@ inline std::string MyModel::to_string() const
 
 inline void MyModel::from_blob(const std::vector<char>& bytes)
 {
-    std::memcpy(&sig, &bytes[0], sizeof(double));
+    std::memcpy(&sig_log_abilities, &bytes[0], sizeof(double));
     std::memcpy(&ns[0], &bytes[0]+sizeof(double), ns.size()*sizeof(double));
     compute_abilities();
 }
