@@ -1,6 +1,7 @@
 dnest5.db*
+figure?.pdf
 main
 postprocess
 posterior.csv
-posterior.db
+posterior.db*
 results.yaml
