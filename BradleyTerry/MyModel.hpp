@@ -132,7 +132,7 @@ inline std::string MyModel::to_string() const
 inline void MyModel::from_blob(const std::vector<char>& bytes)
 {
     std::memcpy(&sig, &bytes[0], sizeof(double));
-    std::memcpy(&ns[0], &bytes[0]+1, ns.size()*sizeof(double));
+    std::memcpy(&ns[0], &bytes[0]+sizeof(double), ns.size()*sizeof(double));
     compute_abilities();
 }
 
