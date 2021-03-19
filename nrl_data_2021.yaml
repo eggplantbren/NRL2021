@@ -42,3 +42,7 @@
             home_team: "eels"
             away_team: "storm"
             result: [16, 12]
+        -
+            home_team: "warriors"    # Not really!
+            away_team: "knights"
+            result: [16, 20]
