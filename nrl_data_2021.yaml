@@ -46,3 +46,11 @@
             home_team: "warriors"    # Not really!
             away_team: "knights"
             result: [16, 20]
+        -
+            home_team: "titans"
+            away_team: "broncos"
+            result: [28, 16]
+        -
+            home_team: "bulldogs"
+            away_team: "panthers"
+            result: [0, 28]
