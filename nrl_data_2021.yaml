@@ -54,3 +54,11 @@
             home_team: "bulldogs"
             away_team: "panthers"
             result: [0, 28]
+        -
+            home_team: "sea eagles"
+            away_team: "rabbitohs"
+            result: [12, 26]
+        -
+            home_team: "cowboys"
+            away_team: "dragons"
+            result: [18, 25]
