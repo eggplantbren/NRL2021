@@ -62,3 +62,11 @@
             home_team: "cowboys"
             away_team: "dragons"
             result: [18, 25]
+        -
+            home_team: "tigers"
+            away_team: "roosters"
+            result: [6, 40]
+        -
+            home_team: "sharks"
+            away_team: "raiders"
+            result: [10, 12]
