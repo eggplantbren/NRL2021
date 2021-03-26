@@ -70,3 +70,10 @@
             home_team: "sharks"
             away_team: "raiders"
             result: [10, 12]
+-
+    round: 3
+    matches:
+        -
+            home_team: "panthers"
+            away_team: "storm"
+            result: [12, 10]
