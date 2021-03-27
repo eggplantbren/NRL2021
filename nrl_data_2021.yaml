@@ -85,3 +85,7 @@
             home_team: "rabbitohs"
             away_team: "roosters"
             result: [26, 16]
+        -
+            home_team: "broncos"
+            away_team: "bulldogs"
+            result: [24, 0]
