@@ -89,3 +89,11 @@
             home_team: "broncos"
             away_team: "bulldogs"
             result: [24, 0]
+        -
+            home_team: "eels"
+            away_team: "sharks"
+            result: [28, 4]
+        -
+            home_team: "knights"
+            away_team: "tigers"
+            result: [20, 24]
