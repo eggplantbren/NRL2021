@@ -86,6 +86,10 @@
             away_team: "roosters"
             result: [26, 16]
         -
+            home_team: "raiders"
+            away_team: "warriors"
+            result: [31, 34]
+        -
             home_team: "broncos"
             away_team: "bulldogs"
             result: [24, 0]
@@ -97,3 +101,7 @@
             home_team: "knights"
             away_team: "tigers"
             result: [20, 24]
+        -
+            home_team: "cowboys"
+            away_team: "titans"
+            result: [8, 44]
