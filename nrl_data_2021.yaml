@@ -105,3 +105,10 @@
             home_team: "cowboys"
             away_team: "titans"
             result: [8, 44]
+-
+    round: 4
+    matches:
+        -
+            home_team: "sea eagles"
+            away_team: "panthers"
+            result: [6, 46]
