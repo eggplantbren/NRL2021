@@ -120,3 +120,11 @@
             home_team: "storm"
             away_team: "broncos"
             result: [40, 6]
+        -
+            home_team: "sharks"
+            away_team: "cowboys"
+            result: [48, 10]
+        -
+            home_team: "titans"
+            away_team: "raiders"
+            result: [4, 20]
