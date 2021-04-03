@@ -21,7 +21,7 @@
             result: [19, 6]
         -
             home_team: "roosters"
-            away_team: "sea eagles"
+            away_team: "sea_eagles"
             result: [46, 4]
         -
             home_team: "panthers"
@@ -55,7 +55,7 @@
             away_team: "panthers"
             result: [0, 28]
         -
-            home_team: "sea eagles"
+            home_team: "sea_eagles"
             away_team: "rabbitohs"
             result: [12, 26]
         -
@@ -109,7 +109,7 @@
     round: 4
     matches:
         -
-            home_team: "sea eagles"
+            home_team: "sea_eagles"
             away_team: "panthers"
             result: [6, 46]
         -
