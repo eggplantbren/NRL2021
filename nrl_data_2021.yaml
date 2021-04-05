@@ -128,3 +128,11 @@
             home_team: "titans"
             away_team: "raiders"
             result: [4, 20]
+        -
+            home_team: "knights"
+            away_team: "dragons"
+            result: [13, 22]
+        -
+            home_team: "roosters"
+            away_team: "warriors"
+            result: [32, 12]
