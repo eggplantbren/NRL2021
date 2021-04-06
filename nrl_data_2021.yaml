@@ -136,3 +136,7 @@
             home_team: "roosters"
             away_team: "warriors"
             result: [32, 12]
+        -
+            home_team: "tigers"
+            away_team: "eels"
+            result: [22, 36]
