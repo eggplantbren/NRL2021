@@ -42,7 +42,7 @@ inline MyModel::MyModel(RNG& rng)
 ,abilities(Data::get_num_teams())
 {
     sig_log_abilities = 2.0*rng.rand();
-    home_advantage = 1.0 - log(rng.rand());
+    home_advantage = exp(rng.randn());
     for(double& n: ns)
         n = rng.randn();
     compute_abilities();
@@ -88,10 +88,11 @@ inline double MyModel::perturb(RNG& rng)
         }
         else
         {
-            home_advantage = 1.0 - exp(-(home_advantage - 1.0));
+            home_advantage = log(home_advantage);
+            logh -= -0.5*pow(home_advantage, 2);
             home_advantage += rng.randh();
-            Tools::wrap(home_advantage);
-            home_advantage = 1.0 - log(1.0 - home_advantage);
+            logh += -0.5*pow(home_advantage, 2);
+            home_advantage =exp(home_advantage);
         }
     }
     else
