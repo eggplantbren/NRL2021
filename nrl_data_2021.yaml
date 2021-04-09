@@ -147,3 +147,11 @@
             home_team: "rabbitohs"
             away_team: "broncos"
             result: [35, 6]
+        -
+            home_team: "warriors"
+            away_team: "sea_eagles"
+            result: [12, 13]
+        -
+            home_team: "panthers"
+            away_team: "raiders"
+            result: [30, 10]
