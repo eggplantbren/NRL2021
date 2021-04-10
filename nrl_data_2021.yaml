@@ -155,3 +155,15 @@
             home_team: "panthers"
             away_team: "raiders"
             result: [30, 10]
+        -
+            home_team: "titans"
+            away_team: "knights"
+            result: [42, 16]
+        -
+            home_team: "bulldogs"
+            away_team: "storm"
+            result: [18, 52]
+        -
+            home_team: "roosters"
+            away_team: "sharks"
+            result: [26, 18]
