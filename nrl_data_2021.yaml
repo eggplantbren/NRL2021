@@ -167,3 +167,11 @@
             home_team: "roosters"
             away_team: "sharks"
             result: [26, 18]
+        -
+            home_team: "tigers"
+            away_team: "cowboys"
+            result: [30, 34]
+        -
+            home_team: "eels"
+            away_team: "dragons"
+            result: [12, 26]
