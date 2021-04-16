@@ -175,3 +175,10 @@
             home_team: "eels"
             away_team: "dragons"
             result: [12, 26]
+-
+    round: 6
+    matches:
+        -
+            home_team: "broncos"
+            away_team: "panthers"
+            result: [12, 20]
