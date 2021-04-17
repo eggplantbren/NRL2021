@@ -182,3 +182,15 @@
             home_team: "broncos"
             away_team: "panthers"
             result: [12, 20]
+        -
+            home_team: "knights"
+            away_team: "sharks"
+            result: [26, 22]
+        -
+            home_team: "storm"
+            away_team: "roosters"
+            result: [20, 4]
+        -
+            home_team: "sea_eagles"
+            away_team: "titans"
+            result: [36, 0]
