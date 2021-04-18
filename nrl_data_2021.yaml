@@ -202,3 +202,11 @@
             home_team: "raiders"
             away_team: "eels"
             result: [10, 35]
+        -
+            home_team: "dragons"
+            away_team: "warriors"
+            result: [14, 20]
+        -
+            home_team: "cowboys"
+            away_team: "bulldogs"
+            result: [30, 18]
