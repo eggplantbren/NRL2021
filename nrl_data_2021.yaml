@@ -194,3 +194,11 @@
             home_team: "sea_eagles"
             away_team: "titans"
             result: [36, 0]
+        -
+            home_team: "rabbitohs"
+            away_team: "tigers"
+            result: [18, 14]
+        -
+            home_team: "raiders"
+            away_team: "eels"
+            result: [10, 35]
