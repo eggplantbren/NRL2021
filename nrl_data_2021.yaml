@@ -210,3 +210,10 @@
             home_team: "cowboys"
             away_team: "bulldogs"
             result: [30, 18]
+-
+    round: 7
+    matches:
+        -
+            home_team: "panthers"
+            away_team: "knights"
+            result: [24, 6]
