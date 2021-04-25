@@ -217,3 +217,19 @@
             home_team: "panthers"
             away_team: "knights"
             result: [24, 6]
+        -
+            home_team: "titans"
+            away_team: "rabbitohs"
+            result: [30, 40]
+        -
+            home_team: "eels"
+            away_team: "broncos"
+            result: [46, 6]
+        -
+            home_team: "sharks"
+            away_team: "bulldogs"
+            result: [12, 18]
+        -
+            home_team: "cowboys"
+            away_team: "raiders"
+            result: [26, 24]
