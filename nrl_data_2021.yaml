@@ -245,3 +245,10 @@
             home_team: "storm"
             away_team: "warriors"
             result: [42, 20]
+-
+    round: 8
+    matches:
+        -
+            home_team: "raiders"
+            away_team: "rabbitohs"
+            result: [20, 34]
