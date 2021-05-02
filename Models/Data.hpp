@@ -63,7 +63,8 @@ inline void Data::load(const char* filename)
 
             // Match results
             std::vector<int> scores = match["result"].as<std::vector<int>>();
-            Match m{teams[home_team], teams[away_team], scores[0] > scores[1]};
+            Match m{teams[home_team], teams[away_team], scores[0] > scores[1],
+                       double(scores[0] - scores[1])};
             matches.emplace_back(std::move(m));
         }
     }

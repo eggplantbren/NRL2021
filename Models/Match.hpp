@@ -11,6 +11,7 @@ struct Match
     int home_team;
     int away_team;
     bool home_team_won;
+    double margin;
 };
 
 inline std::ostream& operator << (std::ostream& out, const Match& m);
@@ -19,7 +20,8 @@ inline std::ostream& operator << (std::ostream& out, const Match& m);
 
 inline std::ostream& operator << (std::ostream& out, const Match& m)
 {
-    out << m.home_team << ' ' << m.away_team << ' ' << m.home_team_won;
+    out << m.home_team << ' ' << m.away_team << ' ' << m.home_team_won << ' ';
+    out << m.margin;
     return out;
 }
 
