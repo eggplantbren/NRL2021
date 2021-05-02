@@ -21,7 +21,8 @@ log_ability_ratio = np.log(home_advantage*abilities[:,0]) \
                         - np.log(abilities[:,1])
 mu = C*log_ability_ratio
 es = -np.log(1.0 - rng.rand(posterior_samples.shape[0]))
-margins = mu + W*np.abs(es)
+es[rng.rand(posterior_samples.shape[0]) < 0.5] *= -1
+margins = mu + W*es
 prob = np.mean(margins > 0.0)
 
 print(f"Probabilities = ({prob}, {1.0 - prob}).")
