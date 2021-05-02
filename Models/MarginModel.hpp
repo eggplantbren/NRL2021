@@ -45,6 +45,8 @@ inline MarginModel::MarginModel(RNG& rng)
 {
     sig_log_abilities = 2.0*rng.rand();
     home_advantage = exp(rng.randn());
+    C = 20.0;
+    W = 30.0*rng.rand();
     for(double& n: ns)
         n = rng.randn();
     compute_abilities();
@@ -98,11 +100,6 @@ inline double MarginModel::perturb(RNG& rng)
             home_advantage += rng.randh();
             logh += -0.5*pow(home_advantage, 2);
             home_advantage =exp(home_advantage);
-        }
-        else if(which == 3)
-        {
-            C += 30.0*rng.rand();
-            Tools::wrap(C, 0.0, 30.0);
         }
         else
         {
