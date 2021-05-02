@@ -1,5 +1,5 @@
-#ifndef DNest5_Template_MyModel_hpp
-#define DNest5_Template_MyModel_hpp
+#ifndef DNest5_Template_BradleyTerry_hpp
+#define DNest5_Template_BradleyTerry_hpp
 
 #include <cmath>
 #include <cstdlib>
@@ -14,7 +14,7 @@ namespace NRL2021
 
 using DNest5::ParameterNames, Tools::RNG;
 
-class MyModel
+class BradleyTerry
 {
     private:
         double sig_log_abilities;
@@ -24,7 +24,7 @@ class MyModel
         inline void compute_abilities();
 
     public:
-        inline MyModel(RNG& rng);
+        inline BradleyTerry(RNG& rng);
         inline double perturb(RNG& rng);
         inline double log_likelihood() const;
         inline std::vector<char> to_blob() const;
@@ -35,9 +35,9 @@ class MyModel
 
 /* Implementations follow */
 
-ParameterNames MyModel::parameter_names;
+ParameterNames BradleyTerry::parameter_names;
 
-inline MyModel::MyModel(RNG& rng)
+inline BradleyTerry::BradleyTerry(RNG& rng)
 :ns(Data::get_num_teams())
 ,abilities(Data::get_num_teams())
 {
@@ -60,7 +60,7 @@ inline MyModel::MyModel(RNG& rng)
     }
 }
 
-inline void MyModel::compute_abilities()
+inline void BradleyTerry::compute_abilities()
 {
     double tot = 0.0;
     for(int i=0; i<Data::get_num_teams(); ++i)
@@ -74,7 +74,7 @@ inline void MyModel::compute_abilities()
         a = exp(a - mean);
 }
 
-inline double MyModel::perturb(RNG& rng)
+inline double BradleyTerry::perturb(RNG& rng)
 {
     double logh = 0.0;
 
@@ -107,7 +107,7 @@ inline double MyModel::perturb(RNG& rng)
     return logh;
 }
 
-inline double MyModel::log_likelihood() const
+inline double BradleyTerry::log_likelihood() const
 {
     double logl = 0.0;
 
@@ -127,7 +127,7 @@ inline double MyModel::log_likelihood() const
     return logl;
 }
 
-inline std::vector<char> MyModel::to_blob() const
+inline std::vector<char> BradleyTerry::to_blob() const
 {
     std::vector<char> result((2 + ns.size())*sizeof(double));
     std::stringstream ss;
@@ -140,7 +140,7 @@ inline std::vector<char> MyModel::to_blob() const
     return result;
 }
 
-inline std::string MyModel::to_string() const
+inline std::string BradleyTerry::to_string() const
 {
     std::stringstream ss;
     ss << std::setprecision(10);
@@ -155,7 +155,7 @@ inline std::string MyModel::to_string() const
 }
 
 
-inline void MyModel::from_blob(const std::vector<char>& bytes)
+inline void BradleyTerry::from_blob(const std::vector<char>& bytes)
 {
     std::memcpy(&sig_log_abilities, &bytes[0], sizeof(double));
     std::memcpy(&home_advantage, &bytes[0] + sizeof(double), sizeof(double));
