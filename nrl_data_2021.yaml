@@ -272,3 +272,11 @@
             home_team: "knights"
             away_team: "roosters"
             result: [4, 38]
+        -
+            home_team: "warriors"
+            away_team: "cowboys"
+            result: [24, 20]
+        -
+            home_team: "dragons"
+            away_team: "tigers"
+            result: [8, 16]
