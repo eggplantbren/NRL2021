@@ -7,7 +7,7 @@
 namespace NRL2021
 {
 
-using ModelType = BradleyTerry; //MarginModel;
+using ModelType = MarginModel;
 
 } // namespace
 
