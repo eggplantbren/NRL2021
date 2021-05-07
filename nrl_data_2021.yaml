@@ -287,3 +287,11 @@
             home_team: "rabbitohs"
             away_team: "storm"
             result: [0, 50]
+        -
+            home_team: "panthers"
+            away_team: "sharks"
+            result: [48, 0]
+        -
+            home_team: "eels"
+            away_team: "roosters"
+            result: [31, 18]
