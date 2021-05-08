@@ -295,3 +295,15 @@
             home_team: "eels"
             away_team: "roosters"
             result: [31, 18]
+        -
+            home_team: "raiders"
+            away_team: "knights"
+            result: [16, 24]
+        -
+            home_team: "tigers"
+            away_team: "titans"
+            result: [28, 36]
+        -
+            home_team: "cowboys"
+            away_team: "broncos"
+            result: [19, 18]
