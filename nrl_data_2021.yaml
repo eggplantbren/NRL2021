@@ -307,3 +307,11 @@
             home_team: "cowboys"
             away_team: "broncos"
             result: [19, 18]
+        -
+            home_team: "sea_eagles"
+            away_team: "broncos"
+            result: [38, 32]
+        -
+            home_team: "dragons"
+            away_team: "bulldogs"
+            result: [32, 12]
