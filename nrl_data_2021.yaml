@@ -281,7 +281,7 @@
             away_team: "tigers"
             result: [8, 16]
 -
-    round: 8
+    round: 9
     matches:
         -
             home_team: "rabbitohs"
