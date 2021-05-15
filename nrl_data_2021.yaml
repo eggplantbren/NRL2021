@@ -315,3 +315,14 @@
             home_team: "dragons"
             away_team: "bulldogs"
             result: [32, 12]
+-
+    round: 10 # All held in Brisbane
+    matches:
+        -
+            home_team: "tigers"
+            away_team: "knights"
+            result: [36, 18]
+        -
+            home_team: "sea_eagles"
+            away_team: "broncos"
+            result: [50, 6]
