@@ -316,7 +316,7 @@
             away_team: "bulldogs"
             result: [32, 12]
 -
-    round: 10 # All held in Brisbane
+    round: 10  # All held in Brisbane
     matches:
         -
             home_team: "tigers"
@@ -326,3 +326,27 @@
             home_team: "sea_eagles"
             away_team: "broncos"
             result: [50, 6]
+        -
+            home_team: "bulldogs"
+            away_team: "raiders"
+            result: [18, 20]
+        -
+            home_team: "sharks"
+            away_team: "rabbitohs"
+            result: [22, 32]
+        -
+            home_team: "roosters"
+            away_team: "cowboys"
+            result: [30, 16]
+        -
+            home_team: "warriors"
+            away_team: "eels"
+            result: [18, 34]
+        -
+            home_team: "storm"
+            away_team: "dragons"
+            result: [44, 18]
+        -
+            home_team: "titans"
+            away_team: "panthers"
+            result: [12, 48]
