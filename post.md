@@ -1,10 +1,8 @@
-Scroll to the bottom to get to the original post. At the top of the file
-are the weekly updates.
+Scroll to the bottom to get to the original post. At the top of the file are the weekly updates.
 
 ## Update, 2021-05-24
 
-Round 11 results. There were some upsets this time, so it won't look as good
-as last week.
+Round 11 results. There were some upsets this time, so it won't look as good as last week.
 
 Cowboys (55.8%), Knights (44.2%) &mdash; **Cowboys won**
 Warriors (64.8%), Tigers (35.2%) &mdash; **Warriors won**
@@ -15,12 +13,9 @@ Raiders (10.3%), Storm (89.7%) &mdash; **Storm won**
 Rabbitohs (44.7%), Panthers (55.3%) &mdash; **Panthers won**
 Eels (84.5%), Sea Eagles (15.5%) &mdash; **Sea Eagles won**
 
-Matches I successfully predicted (in the sense of giving more than 50%
-probability to the actual winner): **5/8**
+Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **5/8**
 
-Probability I assigned to the true set of results: **0.00143** (note: I'm just
-using the above probabilities and independence which is actually an approximation)
-(compare to a person saying 50/50 for each match: **0.00391**). D'oh! :)
+Probability I assigned to the true set of results: **0.00143** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.00391**). D'oh! :)
 
 Now, here are the probabilities for Round 12.
 
@@ -49,12 +44,9 @@ Warriors (20.8%), Eels (79.2%)    &mdash; **Eels won**
 Storm (89.4%), Dragons (10.6%)    &mdash; **Storm won**
 Titans (20.0%), Panthers (80.0%)  &mdash; **Panthers won**
 
-Matches I successfully predicted (in the sense of giving more than 50%
-probability to the actual winner): **7/8**
+Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **7/8**
 
-Probability I assigned to the true set of results: **0.0979** (note: I'm just
-using the above probabilities and independence which is actually an approximation)
-(compare to a person saying 50/50 for each match: **0.00391**).
+Probability I assigned to the true set of results: **0.0979** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.00391**).
 
 Now, here are the probabilities for Round 11.
 
