@@ -1,5 +1,33 @@
 Scroll to the bottom to get to the original post. At the top of the file are the weekly updates.
 
+
+## Update, 2021-05-31
+
+Round 12 results. Some matches that were close to 50/50 went the 'wrong'
+way. I only got half of the winners right, but none of the other results were
+too shocking.
+
+Broncos (10.6%), Storm (89.4%) &mdash; **Storm won**
+Cowboys (44.3%), Warriors (55.7%) &mdash; **Cowboys won**
+Tigers (45.3%), Dragons (54.7%) &mdash; **Tigers won**
+Panthers (95.60%), Bulldogs (4.40%) &mdash; **Panthers won**
+Rabbitohs (44.2%), Eels (55.8%) &mdash; **Rabbitohs won**
+Roosters (82.3%), Raiders (17.7%) &mdash; **Roosters won**
+Sharks (53.2%), Titans (46.8%) &mdash; **Sharks won**
+Knights (29.9%), Sea Eagles (70.1%) &mdash; **Knights won**
+
+Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **4/8**
+
+Probability I assigned to the true set of results: **0.00992** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.00391**).
+
+Now, here are the probabilities for Round 13:
+
+Dragons (63.1%), Broncos (36.9%)
+Tigers (15.1%), Panthers (84.9%)
+Storm (93.5%), Titans (6.5%)
+Knights (17.4%), Eels (82.6%)
+
+
 ## Update, 2021-05-24
 
 Round 11 results. There were some upsets this time, so it won't look as good as last week.
