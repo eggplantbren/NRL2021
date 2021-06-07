@@ -1,6 +1,33 @@
 Scroll to the bottom to get to the original post. At the top of the file are the weekly updates.
 
 
+## Update, 2021-06-08
+
+Round 13 results. This was a short round, because of State of Origin starting
+this week. Some big players were missing, and my inference doesn't account
+for this &mdash; Penrith's first loss of the season is the main apparent
+casualty.
+
+Dragons (63.1%), Broncos (36.9%) &mdash; Dragons won
+Tigers (15.1%), Panthers (84.9%) &mdash; Tigers won
+Storm (93.5%), Titans (6.5%)     &mdash; Storm won
+Knights (17.4%), Eels (82.6%)    &mdash; Eels won
+
+Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **3/4**
+
+Probability I assigned to the true set of results: **0.0736** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.0625**).
+
+Now, here are the probabilities for Round 14:
+
+Sea Eagles (68.9%), Cowboys (31.1%)
+Sharks (19.3%), Panthers (80.7%)
+Titans (22.5%), Roosters (77.5%)
+Rabbitohs (87.0%), Knights (13.0%)
+Raiders (59.1%), Broncos (40.9%)
+Warriors (13.6%), Storm (86.4%)
+Eels (85.0%), Tigers (15.0%)
+Bulldogs (24.9%), Dragons (75.1%)
+
 ## Update, 2021-05-31
 
 Round 12 results. Some matches that were close to 50/50 went the 'wrong'
