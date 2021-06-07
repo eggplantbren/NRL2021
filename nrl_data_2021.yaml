@@ -420,3 +420,22 @@
             home_team: "knights"
             away_team: "sea_eagles"
             result: [18, 10]
+-
+    round: 13
+    matches:
+        -
+            home_team: "dragons"
+            away_team: "broncos"
+            result: [52, 24]
+        -
+            home_team: "tigers"
+            away_team: "panthers"
+            result: [26, 6]
+        -
+            home_team: "storm"
+            away_team: "titans"
+            result: [20, 14]
+        -
+            home_team: "knights"
+            away_team: "eels"
+            result: [4, 40]
