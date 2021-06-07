@@ -3,10 +3,7 @@ Scroll to the bottom to get to the original post. At the top of the file are the
 
 ## Update, 2021-06-08
 
-Round 13 results. This was a short round, because of State of Origin starting
-this week. Some big players were missing, and my inference doesn't account
-for this &mdash; Penrith's first loss of the season is the main apparent
-casualty.
+Round 13 results. This was a short round, because of State of Origin starting this week. Some big players were missing, and my inference doesn't account for this &mdash; Penrith's first loss of the season is the main apparent casualty.
 
 Dragons (63.1%), Broncos (36.9%) &mdash; Dragons won
 Tigers (15.1%), Panthers (84.9%) &mdash; Tigers won
