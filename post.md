@@ -1,5 +1,21 @@
 Scroll to the bottom to get to the original post. At the top of the file are the weekly updates.
 
+## Update, 2021-06-24
+
+I'm a bit late this week. Our new baby is making things a bit more hectic than usual at home :-) Let's see how I did over the weekend. Here are the Round 15 results:
+
+Broncos (17.7%), Rabbitohs (82.3%) &mdash; Rabbitohs won
+Cowboys (46.2%), Sharks (53.8%)    &mdash; Sharks won
+Panthers (68.5%), Roosters (31.5%) &mdash; Panthers won
+Knights (50.0%), Warriors (50.0%)  &mdash; Knights won
+Dragons (65.4%), Raiders (34.6%)   &mdash; Dragons won
+Storm (91.4%), Tigers (8.6%)       &mdash; Storm won
+Eels (94.4%), Bulldogs (5.6%)      &mdash; Eels won
+Titans (46.4%), Sea Eagles (53.6%) &mdash; Sea Eagles won
+
+100% success for the first time (if you generously count my 505/50 one as a success)! Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **8/8**
+Probability I assigned to the true set of results: **0.0459** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.00391**).
+
 ## Update, 2021-06-15
 
 Round 14 results. Penrith lost again, probably because of the State of Origin players. The lowly Bulldogs also had a rare win.
