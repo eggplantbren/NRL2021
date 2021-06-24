@@ -16,6 +16,19 @@ Titans (46.4%), Sea Eagles (53.6%) &mdash; Sea Eagles won
 100% success for the first time (if you generously count my 505/50 one as a success)! Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **8/8**
 Probability I assigned to the true set of results: **0.0459** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.00391**).
 
+Here are my probabilities for Round 16. The home team is listed first.
+
+Roosters (27.4%), Storm (72.6%)
+Warriors (56.4%), Dragons (43.6%)
+Panthers (60.5%), Eels (39.5%)
+Bulldogs (21.8%), Sea Eagles (78.2%)
+Raiders (61.1%), Titans (38.9%)
+Knights (61.8%), Cowboys (38.2%)
+Broncos (39.7%), Sharks (60.3%)
+Tigers (20.3%), Rabbitohs (79.7%)
+
+
+
 ## Update, 2021-06-15
 
 Round 14 results. Penrith lost again, probably because of the State of Origin players. The lowly Bulldogs also had a rare win.
