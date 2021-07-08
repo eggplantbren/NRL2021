@@ -1,5 +1,30 @@
 Scroll to the bottom to get to the original post. At the top of the file are the weekly updates.
 
+## Update, 2021-07-08
+
+Here are the results from Round 16.
+
+Roosters (27.4%), Storm (72.6%)         &mdash; **Storm won**
+Warriors (56.4%), Dragons (43.6%)       &mdash; **Dragons won**
+Panthers (60.5%), Eels (39.5%)          &mdash; **Panthers won**
+Bulldogs (21.8%), Sea Eagles (78.2%)    &mdash; **Sea Eagles won**
+Raiders (61.1%), Titans (38.9%)         &mdash; **Titans won**
+Knights (61.8%), Cowboys (38.2%)        &mdash; **Knights won**
+Broncos (39.7%), Sharks (60.3%)         &mdash; **Broncos won**
+Tigers (20.3%), Rabbitohs (79.7%)       &mdash; **Rabbitohs won**
+
+Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **5/8**
+Probability I assigned to the true set of results: **0.0114** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.00391**).
+
+Predictions for Round 17:
+
+Sea Eagles (79.1%), Raiders (20.9%)
+Rabbitohs (88.6%), Cowboys (11.4%)
+Bulldogs (16.2%), Roosters (83.8%)
+Sharks (60.0%), Warriors (40.0%)
+
+Onward!
+
 ## Update, 2021-06-24
 
 I'm a bit late this week. Our new baby is making things a bit more hectic than usual at home :-) Let's see how I did over the weekend. Here are the Round 15 results:
