@@ -509,3 +509,38 @@
             home_team: "titans"
             away_team: "sea_eagles"
             result: [24, 56]
+-
+    round: 16
+    matches:
+        -
+            home_team: "roosters"
+            away_team: "storm"
+            result: [0, 46]
+        -
+            home_team: "warriors"
+            away_team: "dragons"
+            result: [18, 19]
+        -
+            home_team: "panthers"
+            away_team: "eels"
+            result: [13, 12]
+        -
+            home_team: "bulldogs"
+            away_team: "sea_eagles"
+            result: [0, 66]
+        -
+            home_team: "raiders"
+            away_team: "titans"
+            result: [6, 44]
+        -
+            home_team: "knights"
+            away_team: "cowboys"
+            result: [38, 0]
+        -
+            home_team: "broncos"
+            away_team: "sharks"
+            result: [26, 18]
+        -
+            home_team: "tigers"
+            away_team: "rabbitohs"
+            result: [22, 38]
