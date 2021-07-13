@@ -544,3 +544,22 @@
             home_team: "tigers"
             away_team: "rabbitohs"
             result: [22, 38]
+-
+    round: 17
+    matches:
+        -
+            home_team: "sea_eagles"
+            away_team: "raiders"
+            result: [16, 30]
+        -
+            home_team: "rabbitohs"
+            away_team: "cowboys"
+            result: [46, 18]
+        -
+            home_team: "bulldogs"
+            away_team: "roosters"
+            result: [16, 22]
+        -
+            home_team: "sharks"
+            away_team: "warriors"
+            result: [20, 12]
