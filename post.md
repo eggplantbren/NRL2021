@@ -1,5 +1,34 @@
 Scroll to the bottom to get to the original post. At the top of the file are the weekly updates.
 
+## Update, 2021-07-22
+
+Round 18 results:
+
+Titans (19.8%), Eels (80.2%)            &mdash; **Eels won**
+Sea Eagles (69.9%), Dragons (30.1%)     &mdash; **Sea Eagles won**
+Raiders (52.6%), Sharks (47.4%)         &mdash; **Raiders won**
+Cowboys (25.1%), Roosters (74.9%)       &mdash; **Roosters won**
+Storm (92.2%), Knights (7.8%)           &mdash; **Storm won**
+Warriors (18.1%), Panthers (81.9%)      &mdash; **Panthers won**
+Broncos (51.8%), Tigers (48.2%)         &mdash; **Tigers won**
+Rabbitohs (92.7%), Bulldogs (7.3%)      &mdash; **Rabbitohs won**
+
+Matches I successfully predicted (in the sense of giving more than 50% probability to the actual winner): **7/8**
+Probability I assigned to the true set of results: **0.0745** (note: I'm just using the above probabilities and independence which is actually an approximation) (compare to a person saying 50/50 for each match: **0.00391**).
+
+Matches I successfully predicted since the beginning of this post: 48/64 (75.0%).
+
+Round 19 predictions:
+
+Eels (88.4%), Raiders (11.6%)
+Roosters (80.3%), Knights (19.7%)
+Cowboys (7.9%), Storm (92.1%)
+Rabbitohs (86.4%), Warriors (13.6%)
+Sea Eagles (75.0%), Tigers (25.0%)
+Panthers (91.5%), Broncos (8.5%)
+Dragons (59.5%), Titans (40.5%)
+Bulldogs (35.0%), Sharks (65.0%)
+
 ## Update, 2021-07-14
 
 Round 17 was short, so I had a slightly easier job. Sadly, I didn't get to watch any matches this weekend. It requires staying up late and I can't justify not sleeping while baby is asleep! Here are the results:
