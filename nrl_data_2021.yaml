@@ -563,3 +563,38 @@
             home_team: "sharks"
             away_team: "warriors"
             result: [20, 12]
+-
+    round: 18
+    matches:
+        -
+            home_team: "titans"
+            away_team: "eels"
+            result: [8, 26]
+        -
+            home_team: "sea_eagles"
+            away_team: "dragons"
+            result: [32, 18]
+        -
+            home_team: "cowboys"
+            away_team: "roosters"
+            result: [18, 34]
+        -
+            home_team: "raiders"
+            away_team: "sharks"
+            result: [34, 18]
+        -
+            home_team: "storm"
+            away_team: "knights"
+            result: [48, 4]
+        -
+            home_team: "warriors"
+            away_team: "panthers"
+            result: [16, 30]
+        -
+            home_team: "broncos"
+            away_team: "tigers"
+            result: [24, 42]
+        -
+            home_team: "rabbitohs"
+            away_team: "bulldogs"
+            result: [32, 24]
